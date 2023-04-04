@@ -1,0 +1,18 @@
+/* Custom styles besides Tailwind */
+
+nav ul {
+  display: flex;
+  gap: 20px;
+  font-size: 20px;
+  font-weight: 300;
+  align-items: center;
+}
+
+nav ul li {
+  color: white;
+  transition: color 0.5s;
+}
+
+nav ul li:hover {
+  color: rgb(40, 174, 247);
+}
